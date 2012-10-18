@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cestunmac.android.utils.CheckableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_cell" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:duplicateParentState="true" >
+
+        <RelativeLayout
+            android:id="@+id/thumbnail_frame"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:background="@drawable/cell_image_mask"
+            android:duplicateParentState="true" >
+
+            <!-- @drawable/cell_image_mask -->
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="90dip"
+                android:layout_height="90dip"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:layout_margin="5dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/wallpapers1" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_cell_al"
+            android:layout_width="110dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:paddingRight="10dip"
+            android:paddingTop="70dip" >
+
+            <TextView
+                android:id="@+id/date_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dip"
+                android:layout_marginBottom="20dip"
+                android:background="@drawable/cell_image_date"
+                android:gravity="top|center_horizontal"
+                android:includeFontPadding="false"
+                android:paddingBottom="3dip"
+                android:text="26 janvier"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/thumbnail" -->
+        <!-- android:layout_width="100dip" -->
+        <!-- android:layout_height="100dip" -->
+        <!-- android:layout_centerVertical="true" -->
+        <!-- android:layout_gravity="center" -->
+        <!-- android:layout_marginLeft="10dip" -->
+        <!-- android:scaleType="centerCrop" -->
+        <!-- android:src="@drawable/wallpapers1" /> -->
+
+        <LinearLayout
+            android:id="@+id/lay_cell_al"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_toRightOf="@id/thumbnail_frame"
+            android:duplicateParentState="true"
+            android:orientation="vertical"
+            android:paddingRight="10dip" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:duplicateParentState="true"
+                android:text="TITLE"
+                android:textColor="@color/cell_text_color"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="Category"
+                android:textColor="@color/cell_subtitle_color"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.cestunmac.android.utils.CheckableFrameLayout>

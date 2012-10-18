@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cestunmac.android.utils.CheckableFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_cell"  android:layout_height="60dip">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:duplicateParentState="true"
+        android:textColor="@color/cell_text_color"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/app_name" />
+
+</com.cestunmac.android.utils.CheckableFrameLayout>

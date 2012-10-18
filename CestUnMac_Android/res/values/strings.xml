@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"C'est un Mac !"</string>
+    
+    <string name="empty_post_list_message">"Aucun post…"</string>
+    <string name="loading_post_list_message">"Veuillez patienter…"</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //TabBarView
+    //////////////////////////////////////////////////////////////////
+    -->
+    <!-- nom de l'onglet pour les posts -->
+    <string name="posts.item.tabBarView">"Les posts"</string>
+    <!-- nom de l'onglet pour les catégories -->
+    <string name="categories.item.tabBarView">"Catégories"</string>
+    <!-- nom de l'onglet pour les fonds d'écrans -->
+    <string name="wallpapers.item.tabBarView">"Fonds d'écrans"</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //TableViewPostsViewController
+    //////////////////////////////////////////////////////////////////
+    -->
+    <!-- titre de la navbar -->
+    <string name="title.navbar.tableviewPostViewController">"C'est un Mac !"</string>
+    <string name="more.footer.button.tableviewPostViewController">Time Machine</string>
+    <string name="end.footer.button.tableviewPostViewController">Plus de posts sur cestunmac.com !</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //TableViewCategoriesViewController
+    //////////////////////////////////////////////////////////////////
+    -->
+    <string name="title.navbar.tableviewCategoriesViewController">"Les Catégories"</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //SettingsViewController
+    //////////////////////////////////////////////////////////////////
+    -->
+    <string name="text.push.settingsViewController">"Souhaitez-vous recevoir les notifications Push ?"</string>
+    <string name="title.navbar.settingsViewController">"Infos"</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //Alert View Network
+    //////////////////////////////////////////////////////////////////
+    -->
+    <string name="title.network.alertView">"Erreur de connexion"</string>
+    <string name="text.network.alertView">"Aïe aïe aïe, vous n'avez pas de réseau. Comment survivez-vous ?"</string>
+    <string name="button.cancel.network.alertView">"Noooooon !"</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //Alert View Server
+    //////////////////////////////////////////////////////////////////
+    -->
+    <string name="title.server.alertView">"Oooops erreur de connexion"</string>
+    <string name="text.server.alertView">"Le serveur est indisponible pour le moment mais on y travaille !"</string>
+    <string name="button.cancel.server.alertView">"Revenez plus tard !"</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //Alert View Safari
+    //////////////////////////////////////////////////////////////////
+    -->
+    <string name="title.safari.alertView">"Pour plus de posts rendez-vous sur cestunmac.com !"</string>
+    <string name="text.safari.alertView">"Souhaitez-vous ouvrir cestunmac.com dans le navigateur ?"</string>
+    <string name="cancel.safari.alertView">"Non"</string>
+    <string name="other.safari.alertView">"Oui"</string>
+    <string name="url.itisamac">"http://www.cestunmac.com"</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //Alert View Wallpapers
+    //////////////////////////////////////////////////////////////////
+    -->
+    <string name="title.wallpapers.alertView">"Le fond d'écran est téléchargé !"</string>
+    <string name="text.wallpapers.alertView">"Pour l'installer rendez-vous dans votre bibliothèque photo (Photos >> Utiliser en fond d'écran)"</string>
+    <string name="other.wallpapers.alertView">"OK"</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //Mail Composer
+    //////////////////////////////////////////////////////////////////
+    -->
+    <string name="text.mailComposer.settingsViewController">"Contactez moi !"</string>
+    <string name="subject.mailComposer.settingsViewController">"App cestunmac.com"</string>
+    <string name="exp.mailComposer.settingsViewController">"claire@cestunmac.com"</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //Post Comment
+    //////////////////////////////////////////////////////////////////
+    -->
+    
+    <string name="title.navbar.postForm">"Poster un commentaire"</string>
+    <string name="post.postCommentButton.postForm">"Poster votre commentaire"</string>
+    <string name="name.postCommentButton.postForm">"Votre pseudo"</string>
+    <string name="email.postCommentButton.postForm">"Votre email*"</string>
+    <string name="object.postCommentButton.postForm">"Votre commentaire (gentil hein !)"</string>
+    <string name="detail.postCommentButton.postForm">"Publier votre commentaire"</string>
+    <!-- 
+    <string name="detail.postCommentButton.postForm">"*Ne sera jamais communiqué"</string>
+    -->
+    <string name="title.postComment.alertView">"Merci !"</string>
+    <string name="text.postComment.alertView">"Votre gentil commentaire a bien été publié sur le site."</string>
+    <string name="ok.postComment.alertView">"OK"</string>
+    <string name="title.nameInvalid.postComment.alertView">"Ooops un petit oubli !"</string>
+    <string name="text.nameInvalid.postComment.alertView">"Merci de renseigner votre nom/pseudo."</string>
+    <string name="title.objectInvalid.postComment.alertView">"Ooops un petit oubli !"</string>
+    <string name="text.objectInvalid.postComment.alertView">"Vous avez oublié votre gentil commentaire !!!"</string>
+    <string name="title.mailInvalid.postComment.alertView">"Ooops une erreur !"</string>
+    <string name="text.mailInvalid.postComment.alertView">"Votre mail est invalide."</string>
+    
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //Menus
+    //////////////////////////////////////////////////////////////////
+    -->
+
+    <string name="menu_refresh">Rafraichir</string>
+    <string name="menu_search">Chercher</string>
+    <string name="menu_share">Partager</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //Share
+    //////////////////////////////////////////////////////////////////
+    -->
+    
+    <string name="share_title">"Je partage ce post C'est un Mac !"</string>
+    <string name="wallpaper_screen_info_label">Choississez votre nouveau fond d\'écran</string>
+    
+    <!-- 
+    //////////////////////////////////////////////////////////////////
+    //Wallpapers
+    //////////////////////////////////////////////////////////////////
+    -->
+    
+    <string name="set_as_wallpaper_confirmation_dialog_title">"Fond d'écran"</string>
+    <string name="set_as_wallpaper_confirmation_dialog_message">"Etes-vous sur de vouloir changer pour ce fond d'écran?"</string>
+    
+    
+</resources>

@@ -18,7 +18,7 @@ import android.text.TextUtils;
 import com.cestunmac.android.Constants;
 
 /**
- * Content provider for data used by the Qobuz application
+ * Content provider for data used by the Cestunmac application
  */
 public class CestUnMacContentProvider extends ContentProvider implements Constants {
     protected SQLiteDatabase    mDataBase;
